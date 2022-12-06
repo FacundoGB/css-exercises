@@ -10,7 +10,31 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 52px;
+  
+}
+.photo-grid-item {
+  width: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* do not edit this footer */
 .footer {
